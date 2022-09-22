@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Javascript/Registration.js"></script>
+<h2>Registration</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="txtName" class="form-control" />
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label>State</label>
+                <select class="form-control" id="txtState"></select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label>City</label>
+                <select class="form-control" id="txtCity"></select>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label>Registration Date</label>
+                <input type="date" id="txtRegdate" class="form-control" />
+            </div>
+        </div> 
+    </div>
+    <div class="row>">
+        <div class="col-sm-4">
+            <input type="submit" class="btn btn-success" id="btn" value="Register Now"/>
+        </div>
+    </div>
+</div>
+<div id="Grid"></div>
